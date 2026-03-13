@@ -29,7 +29,7 @@ int finished[10] = {0};
             {
                 int temp=at[i];
                 at[i]=at[j];
-                at[j]=at[i];
+                at[j]=temp;
                 int temp1 = bt[i];
                 bt[i] = bt[j];
                 bt[j] = temp1;
@@ -103,6 +103,7 @@ int finished[10] = {0};
 
     return 0;
 }
+
 
 
 
