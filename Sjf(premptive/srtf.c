@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+    printf("USN 1BM24CS004 \n");
     int n;
     printf("Enter number of processors \n");
     scanf("%d",&n);
@@ -71,4 +72,5 @@ int main()
 
 
 }
+
 
